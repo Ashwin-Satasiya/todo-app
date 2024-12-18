@@ -1,0 +1,19 @@
+.todo-content-main {
+  background-color: transparent;
+  border: 3px solid rgb(155, 174, 179);
+}
+
+.todo-text {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .todo-content-main {
+    padding: 15px !important;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    padding: 4px 8px !important;
+  }
+}
